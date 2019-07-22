@@ -8,8 +8,8 @@
 echo "***BuildBot***"
 echo $TELEGRAM_TOKEN >/tmp/tg_token
 echo $TELEGRAM_CHAT >/tmp/tg_chat
-echo $GITHUB_TOKEN > /tmp/gh_token
-echo $DRONE_BUILD_NUMBER > /tmp/build_no
+echo $GITHUB_TOKEN >/tmp/gh_token
+echo $DRONE_BUILD_NUMBER >/tmp/build_no
 
 sudo echo "ci ALL=(ALL) NOPASSWD: ALL" >>/etc/sudoers
 useradd -m -d /home/ci ci
