@@ -66,6 +66,8 @@ Commit the changes and push them.
 
 **5.** If you want to clone some repos, or do something in ROM folder, add those commands in clone.sh, make sure you don't fuck it up.
 
+If your main tree have .dependencies file, then it will sync those dependencies too.
+
 **6.** Open [drone ci](https://cloud.drone.io/).
 
 Tap on repository name which you forked from this repo.
